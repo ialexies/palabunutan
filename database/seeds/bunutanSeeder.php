@@ -1,0 +1,102 @@
+<?php
+
+use Illuminate\Database\Seeder;
+
+class bunutanSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        //
+
+        $adf= Request::getClientIp();
+        App\Bunutan::create([
+            'name'=>'Mama',
+            'nabunot'=>'wala',
+            'active'=>0,
+            'chosen'=>0,
+            'ip'=>''
+        ]);
+        App\Bunutan::create([
+            'name'=>'Papa',
+            'nabunot'=>'wala',
+            'active'=>0,
+            'chosen'=>0,
+            'ip'=>''
+        ]);
+        App\Bunutan::create([
+            'name'=>'Catherine',
+            'nabunot'=>'wala',
+            'active'=>0,
+            'chosen'=>0,
+            'ip'=>''
+        ]);
+        App\Bunutan::create([
+            'name'=>'Ed',
+            'nabunot'=>'wala',
+            'active'=>0,
+            'chosen'=>0,
+            'ip'=>''
+        ]);
+        App\Bunutan::create([
+            'name'=>'Jam',
+            'nabunot'=>'wala',
+            'active'=>0,
+            'chosen'=>0,
+            'ip'=>''
+        ]);
+        App\Bunutan::create([
+            'name'=>'Christina',
+            'nabunot'=>'wala',
+            'active'=>0,
+            'chosen'=>0,
+            'ip'=>''
+        ]);
+        App\Bunutan::create([
+            'name'=>'Rj',
+            'nabunot'=>'wala',
+            'active'=>0,
+            'chosen'=>0,
+            'ip'=>''
+        ]);
+        App\Bunutan::create([
+            'name'=>'Carlo',
+            'nabunot'=>'wala',
+            'active'=>0,
+            'chosen'=>0,
+            'ip'=>''
+        ]);
+        App\Bunutan::create([
+            'name'=>'Vivian',
+            'nabunot'=>'wala',
+            'active'=>0,
+            'chosen'=>0,
+            'ip'=>''
+        ]);
+        App\Bunutan::create([
+            'name'=>'Charity',
+            'nabunot'=>'wala',
+            'active'=>0,
+            'chosen'=>0,
+            'ip'=>''
+        ]);
+        App\Bunutan::create([
+            'name'=>'Alexies',
+            'nabunot'=>'wala',
+            'active'=>0,
+            'chosen'=>0,
+            'ip'=>''
+        ]);
+        App\Bunutan::create([
+            'name'=>'Ivan',
+            'nabunot'=>'wala',
+            'active'=>0,
+            'chosen'=>0,
+            'ip'=>''
+        ]);
+    }
+}
